@@ -19,7 +19,7 @@
     <img src="../../assets/image/livro.png" alt="">
   </div>
   <div id="form">
-    <ion-input placeholder="Informe a quantidade de páginas"></ion-input>
-    <ion-button expand="block" shape="round">Iniciar</ion-button>
+    <ion-input placeholder="Informe a quantidade de páginas" [(ngModel)]="quantidadePaginas" ></ion-input>
+    <ion-button expand="block" shape="round" (click)="iniciar()">Iniciar</ion-button>
   </div>
 </ion-content>
