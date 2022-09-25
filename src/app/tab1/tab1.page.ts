@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+<<<<<<< HEAD
   public quantidadePaginas: number;
   public cronometro: any;
   public tempo: number;
@@ -16,6 +17,11 @@ export class Tab1Page {
   constructor() {
     this.resultado = null;
   }
+=======
+  constructor() {}
+
+ 
+>>>>>>> f4b1880b798b99649b70273cd8ab2c5aceb0fb7a
 
     start(){
       if(this.quantidadePaginas > 0 && this.quantidadePaginas != null){
